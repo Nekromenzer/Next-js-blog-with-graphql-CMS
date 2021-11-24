@@ -5,14 +5,17 @@ import {
   PostWidget,
   Author,
   Comments,
-  CommentsForm
+  CommentsForm,
+  Loader
 } from '../../components'
 import { getPostDetails, getPosts } from '../../services'
-// import { getPosts, getPostsEndpoint } from '../services'
+import { useRouter } from 'next/router'
 
 const PostDetails = ({ post }) => {
-  {
-    console.log('post', post)
+  const router = useRouter()
+
+  if (router.isFallback) {
+    return <Loader />
   }
   return (
     <div className='container mx-auto px-10 mb-8'>
