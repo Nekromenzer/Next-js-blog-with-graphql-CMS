@@ -1,29 +1,28 @@
-# Next.js + Tailwind CSS Example
+<h2>GraphQL CMS blog</h2>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h3>Author</h3>
+Github - <a href="https://github.com/Nekromenzer">nekromenzer</a><br>
+LinkedIn - <a href="https://www.linkedin.com/in/maneesha-gimshan/">Maneesha Gimshan</a>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<h3>Tech used</h3>
+<ul>
+    <li>React</li>
+    <li>Next js</li>
+    <li>Graphql</li>
+    <li>Graphql-request</li>
+    <li>Tailwind css</li>
+    <li>moment</li>
+    <li>Graphql CMS</li>
+</ul>
 
-## Preview
+<h3>To Start..</h3>
+<ol>
+    <li>npm install</li>
+    <li>Create account in Graphql-cms and create queries</li>
+    <li><b>Update API key in env File (example env provided)</b></li>
+    <li>yarn dev</li>
+    <li>project will start in http://localhost:3000/ </li>
+</ol>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
